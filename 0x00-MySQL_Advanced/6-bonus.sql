@@ -1,3 +1,5 @@
+-- Create procedure AddBonus to add new correction
+-- for a student: user_id, project_name, score.
 DELIMITER //
 CREATE PROCEDURE AddBonus(user_id INT, project_name VARCHAR(255), score FLOAT)
     BEGIN

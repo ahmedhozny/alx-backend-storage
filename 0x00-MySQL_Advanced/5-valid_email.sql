@@ -1,3 +1,5 @@
+-- Create trigger reset_valid_email to reset
+-- valid_email flag to 0 if email is updated.
 DELIMITER //
 CREATE TRIGGER reset_valid_email
 BEFORE UPDATE ON users

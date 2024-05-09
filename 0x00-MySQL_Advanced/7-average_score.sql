@@ -1,3 +1,5 @@
+-- Create procedure ComputeAverageScoreForUser
+-- to calculate average score for a user and update users table.
 DELIMITER //
 CREATE PROCEDURE ComputeAverageScoreForUser (user_id INT)
 BEGIN

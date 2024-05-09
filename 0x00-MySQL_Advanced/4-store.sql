@@ -1,3 +1,5 @@
+-- Create trigger 'item_reduce' to decrease item quantity
+-- in 'items' table after each order insertion.
 DELIMITER //
 CREATE TRIGGER item_reduce
 AFTER INSERT ON orders
